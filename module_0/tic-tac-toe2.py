@@ -37,7 +37,19 @@ def start_game():
     print('|', ' крестики ', '|', ' ' * 10, '|', ' нолики !?', '|')
     print('|', ' ' * 10, '|', ' ' * 10, '|', ' ' * 10, '|')
     print(chr(151) * 55)
-    game_ai = bool(int(input('Хотите потренироваться (0) или поиграть с машиной?')))
+
+    just_input = input('Хотите потренироваться (0) или поиграть с компьютером?')
+    if just_input.isdigit():
+        int_input = int(just_input)
+        if not int_input:
+            game_ai = bool(int_input)
+        else:
+            game_ai = True
+    else:
+        if just_input == ' ' or not len(just_input):
+            game_ai = False
+        else:
+            game_ai = True
 
 
 # -----------------------------------------------------
