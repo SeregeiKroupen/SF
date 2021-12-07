@@ -1,7 +1,6 @@
 ---
-    ### Here it is project
-    # "CAR PRICE'S PREDICTON"
-    
+### Here it is project
+# "CAR PRICE'S PREDICTON"  
 ---
     
 Project consisted with several steps. 
