@@ -12,7 +12,7 @@ Project consisted with several steps.
 ### <a name="parsing"></a>Parsing data
 
 The aim was to pars data from any page with auto advertisings. the first thing that comes to mind is the website [auto.ru](auto.ru).
-It was my first time of parsing data from internet webpage. So I started out with some fears and for the begining - tryed to find any scrips, which will help me to jump there. I found this script from JANE VOYTIK ([KAGGLE](https://www.kaggle.com/eugeniavoytik/sf-dst-car-price-prediction-eda-ml), [Git](https://github.com/EugeniaVoytik/Car_price_prediction/blob/main/%5BSF-DST%20Car%20Price%20Prediction%5D%20Data%20parsing.ipynb). And try to understend and to use it. Unfortunately, appeared that code was obsolete. Ore, the right words wil be "webpage have been updated with HTML markup". So I forced to make some change to code, to reach the goal.
+It was my first time of parsing data from internet webpage. So I started out with some fears and for the begining - tryed to find any scrips, which will help me to jump there. I found this script from JANE VOYTIK ([KAGGLE](https://www.kaggle.com/eugeniavoytik/sf-dst-car-price-prediction-eda-ml), [Git](https://github.com/EugeniaVoytik/Car_price_prediction/blob/main/%5BSF-DST%20Car%20Price%20Prediction%5D%20Data%20parsing.ipynb)). And try to understend and to use it. Unfortunately, appeared that code was obsolete. Or, the right words will be "webpage have been updated with HTML markup". So I forced to make some change to code, to reach the goal.
 
 My script consists with two parts: parsing urls of webpage with car advitising, and the second - parsing data for dataset from each webpage. 
 
@@ -26,7 +26,8 @@ In the result, I received list of near 88 000 unique used car adertising urls. I
 
 Anothe thing, which I needed to do - was to make notes and resumes in code, to to facilitate understanding. It is considering both parts of "JANE script".
 
-The secind part of parsing took me a lot of time. As I had 120 000 urls (as I mentiond above - used and new), total time to dounload data would be 60 hours. It's been a long time.  
+The secind part of parsing took me a lot of time. As I had 120 000 urls (as I mentiond above - used and new), total time to dounload data would be 60 hours. It's been a long time. Еhis became the main difficulty in the work. So I would really like to understand how I can improve my program or what other approach to use so as not to waste so much time. 
 
-<a name="eda"></a>
+### <a name="eda"></a> Normalizing data, EDA and FE.
+
 <a name="ml"></a>
