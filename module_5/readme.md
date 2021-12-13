@@ -26,7 +26,7 @@ In the result, I received list of near 88 000 unique used car adertising urls. I
 
 Anothe thing, which I needed to do - was to make notes and resumes in code, to to facilitate understanding. It is considering both parts of "JANE script".
 
-The secind part of parsing took me a lot of time. As I had 120 000 urls (as I mentiond above - used and new), total time to dounload data would be 60 hours. It's been a long time. Еhis became the main difficulty in the work. So I would really like to understand how I can improve my program or what other approach to use so as not to waste so much time. 
+The second part of parsing took me a lot of time. As I had 120 000 urls (as I mentiond above - used and new), total time to dounload data would be 60 hours. It's been a long time. This became the main difficulty in the work. So I would really like to understand how I can improve my program or what other approach to use so as not to waste so much time. 
 
 ### <a name="eda"></a> Normalizing data, EDA and FE.
 
