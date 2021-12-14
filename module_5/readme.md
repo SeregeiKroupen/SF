@@ -10,7 +10,7 @@ Project consisted with several steps.
 3. [Mashing Learning and submit](#ml)
 4. [Resume about the estimate on Kaggle](#estimate)
 5. [Failures](#failures)
-6. 
+6. [Personal achievements](#achievements)
 
 ### <a name="parsing"></a>Parsing data
 
@@ -166,9 +166,31 @@ Working in team was the second time. This time was better then first. But not
 useful for me. 
 
 My team partner name Сергей Фролов [Kaggle](https://www.kaggle.com/serfrol). 
-As for begin, I asked him about project, it seamed he will make it alone and earlie
-the me. But then in a weeks when I in progress of parsing, it turned out, that he 
-is the same stage - parsing too. It turned out to be such a mismatched start.
+As for begin, I asked him about project, it seemed he will make it alone and earlie
+then me. But then after two weeks when I was in progress of parsing, it turned out, 
+that he is the same stage - parsing too. It turned out to be such a mismatched start. 
+But we agreed to make project together.
 
 Next, we talk about some methods and findings. I gave him my parsed dataset 
-and parsing script and EDA script. we 
+and parsing script and EDA script. we agrreed to make EDA and FE separate and then 
+exchange of result, datasets and good ideas. Then we were going to separate some ML 
+model to find best hyper parameters...  And after this I am ready to submit, but 
+Sergei isn't. He have not finish EDA and FE yet.
+
+I think, it is good idea to separate work on EDA and FE, it is like a brainstorm. 
+But it's not happend. 
+
+### <a name="achievements"></a>My personal achivments
+
+I began to better understand the ML library *sklearn*, among its tools, models, metrics
+and more. I began to understand the ML syntax better. I found an excellent IDE software
+DataSpell (JetBrains), which greatly helps to understand and speed up work on projects 
+and tasks.
+
+For the first time I did what I wanted to learn for a long time - I parsed pages from 
+the Internet by the script. But, it is a pity, that very little attention was paid to 
+this topic within the DST units. In particular, the application of the POST method has 
+not been analyzed.
+
+I am pleased that despite the difficulties I was able to adapt the script from the 
+course to create a stacking model for regression.
