@@ -26,11 +26,11 @@
 7) предложение механизма применеия на практике - production
 
 ## Ноутбуки и данные:
-п.1 - Final_project_EDA.ipynb
-п.2-4,7 - Final_project_ML.ipynb
-п.5-6 - Final_project[ML+NN] (Kaggle)
-https://www.kaggle.com/code/sergeikroupen/final-project-ml-nn/edit
-На Kaggle выложен и предобработанный датадфрейм после EDA&FE фазы
+п.1 - Final_project_EDA.ipynb  
+п.2-4,7 - Final_project_ML.ipynb  
+п.5-6 - Final_project[ML+NN] (Kaggle)  
+https://www.kaggle.com/code/sergeikroupen/final-project-ml-nn/edit  
+На Kaggle выложен и предобработанный датадфрейм после EDA&FE фазы  
 https://www.kaggle.com/datasets/sergeikroupen/housing-preprocessed-data
 
 ## EDA & FE
