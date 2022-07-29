@@ -1,3 +1,19 @@
+# Project #4 "Computer says: "No!"   
+**Data Science Specialization course by SkillFactory**
+_____
+Second edition ("credit_scoring_v2")
+
+I made second edition of project 4, as my first time was not successful. I return to 
+it after finishing study of DS in SkillFactory. So I used more knowledge to achive better result.
+
+It was not difficult and long. I used CatBoostClassifier and TargetEncoder as base of model.
+And most useful thing was balancing of classes. Initially we had near 7:1 ballance between 
+"non-default" and "default" classes, and I made balance near 4:3.  
+
+Score on liderboard is 35.032% (F1 of default calss)
+
+____
+Первая версия (в рамках курса)   
 Тут представлена моя работа по проекту 4 кредитного скоринга "Копьютер говорит "нет".
 
 Хочется сказать, присказкой про неудачную торговлю: "Продавали - веселились, посчитали - прослезились". Пока я вел работу по EDA и FE, у меня создавалось впечатление, что я освоил таки тему. Если и были сомнения - то их не осталось: я дата-саентист. Но оказалось, что рано я радовался...
