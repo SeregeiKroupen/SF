@@ -27,6 +27,11 @@ def score_game(game_core):
     # в чеках из продуктовых магазинов. Сами коды 13-значные, но первые 8 почти наверняка - это
     # код группы/подгруппы товара. А последние 4 выглядят как код непосредственно товара.
     # Считаю, что это достаточно надежный способ собрать действительно слуяайные числа
+    # -------------------------------------
+    # I collected random numbers: these are the last four digits (taken in pairs) from product codes
+    # on receipts from grocery stores. The codes themselves are 13 digits, but the first 8 are almost certainly
+    # product group/subgroup code. And the last 4 look like the code of the product itself.
+    # I think this is a fairly reliable way to collect really random numbers
     real_random = (60, 44, 58, 87, 31, 38, 17, 6, 19, 26, 81, 8, 95, 32, 67, 96, 30, 6, 61, 49,
                    19, 85, 30, 50, 15, 97, 16, 34, 88, 50, 99, 74, 3, 68, 37, 30, 99, 31, 97, 5,
                    100, 29, 37, 65, 48, 80, 54, 5, 4, 67, 13,
