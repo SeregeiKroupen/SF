@@ -5,3 +5,5 @@ The format of the project is Jupiter Notebook. Showing tricks and methods to wor
 There are loading data, working with various data types, transforming, applying formulas, extracting statistical characteristics, 
 applying filters and slices, sorting, grouping, applying multiple conditions, working with a text data type to extract features, 
 using combinatorics.
+    
+Used libraries: **pandas, numpy, itertools, collections, calendar**
