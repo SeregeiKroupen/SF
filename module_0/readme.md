@@ -29,3 +29,4 @@ with random marks for both players. Try to realize, where you have to go next ti
    
 ---
 PS. These are my first two projects on Python.
+Used basic algorithm statments, basic operators and algorithmic constructions, sach control flow, imput/output and etc.
