@@ -1,4 +1,4 @@
-# Technical description of module-one projects. 
+# Description of module-one projects. 
    
 There are two projects in module one of DST course:  
 1. Number guessing script || *"rundom_game.py"* and *"Real-Random.py"*
