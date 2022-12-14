@@ -21,7 +21,7 @@ But the script made an even better result - 5.6 attempts (*"Real-Random.py"*).
 ### "Tik-Tac-Toe" game   
 "tic-tac-toe2.py"     
    
-It is the script of the game to play on a console without any GUI.
+It is the script of [the game](https://en.wikipedia.org/wiki/Tic-tac-toe) to play on a console without any GUI.
 The task was to code just game-play. But I made two more features. 
 First, I add an "AI" script, which is a "short winning strategy algorithm" for the game. So you can play the game like with the computer. 
 Second, I add "easter egg". It is a joke. If the player answer in the wrong way wh- the playing board updating 
