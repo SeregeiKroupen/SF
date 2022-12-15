@@ -22,7 +22,8 @@ part requirement leads to a decrease in the accuracy of the model's results.
 
 Evaluation of the quality of the job is carried out through participation in the Kaggle competition, where is needing to submit 
 a prediction for the test part of the dataset. The result of MAE on the spittest of my model = 16,3%, 
-on Kaggle - 16,86% (55th place from 692). I aimed to achieve a result better than 18%.
+on [Kaggle](https://www.kaggle.com/competitions/sf-dst-restaurant-rating/leaderboard) - 16,86% (55th place from 692). 
+I aimed to achieve a result better than 18%.
 
 
 Used libraries: **pandas, itertools, seaborn, matplotlib, scipy.stats.ttest_ind, random, re, math**   
