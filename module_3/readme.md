@@ -1,4 +1,8 @@
-# Description of module_3 project.   
+
+### Project #3.
+# "About tasty and healthy food..." 
+#### Data Science Specialization course by SkillFactory
+--- 
 [description of work and comments](https://github.com/SergeiKroupen/SF/blob/master/module_3/readme_ru.md) in russian.
    
 The format of the project is Jupiter Notebook. **It is my first full-cycle Data Science Machine Learning project.** 
