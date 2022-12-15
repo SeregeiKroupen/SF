@@ -17,11 +17,11 @@ The score on the [leaderboard](https://www.kaggle.com/competitions/sf-scoring/le
 it is 12th out of 76 (F1 of default class metric). This competition has changing rules - the evaluation metric is 
 F1(default class), instead of ROC AUC, which was previously.
 
-Used libraries: pandas
+Used libraries: pandas   
 ML-library: **sklearn, catboost**   
 ML models: **RandomForestClassifier, LogisticRegressor, LogisticRegression, SGDClassifier, RidgeClassifier, 
 ExtraTreesClassifier, CatBoostClassifier**   
-ML methods: **GridSearchCV, RandomizedSearchCV, PCA, StandardScaler, category_encoders**   
+ML methods: **StandardScaler, category_encoders**   
 
 ---
 
@@ -38,7 +38,7 @@ Besides the common pipeline of the ML process, I made the selection of hyperpara
 To avoid possible data leakage I was forced to drop my "best vector". But ROC AUC grew only to 72%. I was dissatisfied with this, but to repair or re-make all work at this time couldn't do. Several months later, after finishing the course, I return to the project to make it better.
 
 
-Used libraries: **pandas, itertools, seaborn, matplotlib, scipy.stats.ttest_ind, random, re, math**
-ML-library: **sklearn** 
-ML models: **RandomForestClassifier, LogisticRegressor**
-ML methods: **GridSearchCV, RandomizedSearchCV, PCA, StandardScaler**
+Used libraries: **pandas, itertools, seaborn, matplotlib, scipy.stats.ttest_ind, random, re, math**    
+ML-library: **sklearn**    
+ML models: **RandomForestClassifier, LogisticRegressor**   
+ML methods: **GridSearchCV, RandomizedSearchCV, PCA, StandardScaler**.  
