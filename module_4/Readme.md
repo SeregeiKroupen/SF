@@ -1,32 +1,44 @@
-# Project #4 "Computer says: "No!"   
-**Data Science Specialization course by SkillFactory**
-_____
-Second edition ("credit_scoring_v2")
+### Project #4 
+# "Computer says: "No!"   
+**Data Science Specialization course by SkillFactory**   
+[description of work and comments](https://github.com/SergeiKroupen/SF/blob/master/module_4/readme_ru.md) in russian.   
 
-I made second edition of project 4, as my first time was not successful. I return to 
-it after finishing study of DS in SkillFactory. So I used more knowledge to achive better result.
+---
 
-It was not difficult and long. I used CatBoostClassifier and TargetEncoder as base of model.
-And most useful thing was balancing of classes. Initially we had near 7:1 ballance between 
-"non-default" and "default" classes, and I made balance near 4:3.  
+Second edition ("*credit_scoring_v2*")
 
-Score on liderboard is 35.032% (F1 of default calss)
+I made the second edition of project #4, as my first yield was not successful. I return to it after finishing 
+the study of DS in SkillFactory. So I used more knowledge to achieve a better result.   
+I used CatBoostClassifier and TargetEncoder as the base of the ML model. 
+And the most useful thing was balancing classes. Initially, we had a near 7:1 balance between the "non-default" 
+and the "default" classes, and I made a balance near 4:3.   
 
-____
-Первая версия (в рамках курса)   
-Тут представлена моя работа по проекту 4 кредитного скоринга "Копьютер говорит "нет".
+The score on the [leaderboard](https://www.kaggle.com/competitions/sf-scoring/leaderboard) is 35.032%, 
+it is 12th out of 76 (F1 of default class metric). This competition has changing rules - the evaluation metric is 
+F1(default class), instead of ROC AUC, which was previously.
 
-Хочется сказать, присказкой про неудачную торговлю: "Продавали - веселились, посчитали - прослезились". Пока я вел работу по EDA и FE, у меня создавалось впечатление, что я освоил таки тему. Если и были сомнения - то их не осталось: я дата-саентист. Но оказалось, что рано я радовался...
+Used libraries: pandas
+ML-library: **sklearn, catboost**   
+ML models: **RandomForestClassifier, LogisticRegressor, LogisticRegression, SGDClassifier, RidgeClassifier, 
+ExtraTreesClassifier, CatBoostClassifier**   
+ML methods: **GridSearchCV, RandomizedSearchCV, PCA, StandardScaler, category_encoders**   
 
-Нет, отрицать, что мне многое удалось, и что я многому научился - нельзя. 
-1. Я все таки доволен тем, как мне удалось составить модель с отличным результатом на валидации. 
-2. Я очень доволен, что попробовал, как хотел еще одну модель, кроме логистрической регресси (хотя, конечно, я хотел больше моделей попробовать). 
-3. Я невероятно доволен, что попробовал подбирать гиперпараметры с помощью не только сетки, но и рандомного поиска. И что меня сильнее всего впечатлило - применение этих параметров на "Случайном Лесе" еще сильнее подняло целевую метрику.
-4. Я доволен, что смог осуществить идею сбора даных по этам работы с датасетом. 
-5. Когда я внезапно узнал, что целевая метрика, это еще не все, и что нужно использовать другие метрики. Проверив их, обнаружилось, что модель никак не предсказывала дефолты, то есть она была сильно разбалансирована по классам. Хотя, как казалось - 1:7 это не много. Что ж. Идея "в лоб" увеличить количество записей с дефолтом (фактически я их утриавал) и сокращение записй без дефолта (на 40%) существенно улучшало ситуацию с предсказаниями дефолтов. Но это было уже не важно...
+---
 
-Потому что мой результат - 0,61. А если исключить мой самый "любимый" вектор, то 0,72.
+First edition ("*credit-scoring-penny-drops.ipynb*")
 
-Вердикт не утешителный. Как ни красиво поучился набор векторов, построен он на неподходящей методике. Главный изъян, как полагаю,  - утечка данных. Соблазн, упрекнуть постановку задания есть. Оно не безупречно. Но мои усилия, показать, что хоть какая-то польза от моей работы есть, не увенчалась успехом. Я постарался применить мою схему построения и преобразования датасета, исключив утечку данных. Но успеха эта попытка не принесла. А моделирование, как мне показалось, более реальной ситуации работы скорингового отдела - вообще не предсказала никаих дефолтов, и я уже не имею сил разбираться, что с этим делать. 
+The format of the project is Jupiter Notebook. It is a full-cycle Data Science Machine Learning project. The main task of the project is to predict credit default using the Logistic Regression algorithm. But the Random Forest Classification algorithm is also used. The dataset with personal data has 18th feature vectors and the target vector. The train part has about 74k rows, and the test part has 36k rows. 
 
-Да. И еще была попытка работы в команде. Penny Drops. Эврика не удалась. Теперь ясно только то, что надо как-то двигаться дальше и исправляться в будущем. 
+The project consists of all parts of the ML cycle: load and cleansing data, exploratory analysis, filling omissions, features engineering, preparing, and sometimes transforming data for the ML model. This project shows working with various types of data. Also, I tried to implement target encoding for features, made myself.
+
+The evaluation metric for this project at first was ROC-AUC. And I reached an 83% result. 
+
+Besides the common pipeline of the ML process, I made the selection of hyperparameters for both ML models (RFC and LR) in several ways: with random search, search by the grid, and by PCA (principal component analysis). The metrics on the validation set grew to 85,67%. But finally, after submission on Kaggle, the result turn out to be 61%. I think my target encoding led to data leakage.
+
+To avoid possible data leakage I was forced to drop my "best vector". But ROC AUC grew only to 72%. I was dissatisfied with this, but to repair or re-make all work at this time couldn't do. Several months later, after finishing the course, I return to the project to make it better.
+
+
+Used libraries: **pandas, itertools, seaborn, matplotlib, scipy.stats.ttest_ind, random, re, math**
+ML-library: **sklearn** 
+ML models: **RandomForestClassifier, LogisticRegressor**
+ML methods: **GridSearchCV, RandomizedSearchCV, PCA, StandardScaler**
