@@ -1,5 +1,5 @@
 ### Project #1.
-# "UNICEF" 
+# "Who is the next blockbuster?" 
 #### Data Science Specialization course by SkillFactory
 --- 
 [description of work and comments](https://github.com/SergeiKroupen/SF/blob/master/module_1/readme_ru.md) in russian.
