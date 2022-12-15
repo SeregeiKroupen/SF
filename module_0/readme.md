@@ -1,4 +1,7 @@
-# Description of module_0 projects. 
+### Project #0.
+# Tic-Tac-Toe.
+#### Data Science Specialization course by SkillFactory
+--- 
    
 There are two projects in module one of DST course:  
 1. Number guessing script || *"rundom_game.py"* and *"Real-Random.py"*
