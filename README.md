@@ -10,7 +10,7 @@ module_1 | Who is the next blockbuster? | Python Pandas |
 module_2 | UNICEF | Exploratory analysis |
 module_3 | About tasty and healthy food... | ML Regression |
 module_4 | Computer says: "No! | ML Logistic Regression & ... |
-module_5 | CAR PRICE'S PREDICTON | HTMP parcing & ML Regression |
+module_5 | CAR PRICE'S PREDICTON | HTML parcing & ML Regression |
 module_9 | Batmobile | EDA & ML & NN => multi input neuro net|
 final_project| Real Estate Investments| ML production for business |
 
