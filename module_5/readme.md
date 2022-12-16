@@ -60,6 +60,11 @@ As mentioned above, I made two attempts at parsing auto.ru. I decide to use the 
 
 The result with CatBoostRegressor MAPE is 14%. It is not fine, but it is like 65th place on the leaderboard (as of 13/12/2021). So, it is not a bad feature dataset and ML model for prediction.   
 
+> * **Used libraries**: pandas, numpy, tqdm
+> * **ML libraries**: sklearn, catboost, xgboost, lightgbm
+> * **ML algoritms**: CatBoostRegressor, LinearRegression, DecisionTreeRegressor, RandomForestRegressor, GradientBoostingRegressor, ExtraTreesRegressor, XGBRegressor, LGBMRegressor, Ridge, AdaBoostRegressor, StackingRegressor, RandomTreesEmbedding, KFold
+> * **ML methods**: RandomizedSearchCV, category_encoders, LabelEncoder
+
 ### <a name="estimate"></a> Resume about the estimate on Kaggle.
 
 I took part in the competition with the team 'penny drops'.  
@@ -72,12 +77,6 @@ As the test set was collected more than a year ago, I need to make some post-pro
 I have some comments about the task of the project competition. If we consider it as a theoretical problem, then it is quite standard, and suitable for training. However, in reality, the task of determining the price in the market is not a random variable, and to determine it, you need to directly use the data on the already available offers in the market. In other words, use a "data leak". In life, both sellers and buyers do this.   
 
 Also, in reality, the prices in the ads are, in a sense, virtual prices. It is not uncommon that the real price of buying and selling a used car differs from the virtual one. And from a practical point of view, it is the real price that is important, which we do not have. As part of the project, I did not try to build a model based on the behavior of participants in the formation of prices. But in practice, I would definitely use it, instead of a simple "prediction" of any ML.   
-
-> * **Used libraries**: pandas, numpy, tqdm
-> * **ML libraries**: sklearn, catboost, xgboost, lightgbm
-> * **ML algoritms**: CatBoostRegressor, LinearRegression, DecisionTreeRegressor, RandomForestRegressor, GradientBoostingRegressor, ExtraTreesRegressor, XGBRegressor, LGBMRegressor, Ridge, AdaBoostRegressor, StackingRegressor, RandomTreesEmbedding, KFold
-> * **ML methods**: RandomizedSearchCV, category_encoders, LabelEncoder
-
 
 ### <a name="failures"></a> Failures.
 
