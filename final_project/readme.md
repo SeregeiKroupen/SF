@@ -1,6 +1,7 @@
 ### the Data Science final course project 
 the project name:   
 # "Make profitable investments by predicting the price of houses!"
+[description of work and comments](https://github.com/SergeiKroupen/SF/blob/master/final_project/readme_ru.md) in russian.    
 
 The original plan was generally standard, and the goal was more modest:
 1) Clean, analyze, and process data - EDA.
