@@ -93,7 +93,7 @@ As a result of the competition, I received the MAPE  11.3647% (55th place in the
 
 > * **Used libraries**: pandas, numpy, tqdm
 > * **ML libraries**: sklearn, catboost,
-> * **ML algoritms**: CatBoostRegressor, KFold
+> * **ML algoritms**: CatBoostRegressor, KFold, albumentations
 > * **ML methods**: category_encoders
 > * **DL libraries**: tensorflow, tensorflow.keras, pymorphy2
 > * **DL methods**: layers, Model, Sequential, Tokenizer, ModelCheckpoint, EarlyStopping
@@ -109,6 +109,9 @@ Thus, I am satisfied with the work done and, which is no less important, with th
 
 ### <a name="gan"></a> Image generator on NN GAN
 
+Shown an image ganarator on NN GAN.
 
 ### <a name="ai"></a>AI for CartPole game
+
+Shown an AI DLN model to solve CartPole game
 
