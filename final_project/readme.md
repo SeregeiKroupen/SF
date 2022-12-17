@@ -24,8 +24,7 @@ Thus, the final plan became the following:
 
 ## Notebooks and data
 
-
-p. 1 _ Final_project_EDA.ipynb  
+p. 1  Final_project_EDA.ipynb  
 pp. 2 - 4 and 7 - Final_project_ML.ipynb  
 pp. 5-6 - Final_project[ML+NN] [Kaggle](https://www.kaggle.com/code/sergeikroupen/final-project-ml-nn/edit)  
 A pre-processed dataframe after the EDA&FE phase is also posted on [Kaggle](https://www.kaggle.com/datasets/sergeikroupen/housing-preprocessed-data)
@@ -48,4 +47,6 @@ Moreover, what is the saddest thing, among the duplicates, as a rule, there was 
 the rest contained incomplete or distorted versions. I think this is why the "simple" (actually not) removal of duplicates did not improve 
 the metric - the correct information was mostly lost.   
 
+First of all, the issue of choosing a metric was seen as very important. While cleaning data and generating features, I looked at a wide set. Given the chosen target, a metric was needed to track that the model was predominantly wrong "down", that is, it predicted a smaller value than the actual asking price. This is necessary to insure against a false conclusion when the model's prediction turns out to be higher than the market price and the object turns out to be a bad investment.   
+I found the Mean Pinball Loss metric - "a metric of average losses in a certain quantile". It is implemented in `sklearn`, but for some reason, it was not imported locally. So I wrote my function with additional result parameters: in addition to MPL, I also counted the proportion of "overestimated" values, as well as the average of "overestimated" and "underestimated" values. By choosing alpha=0.01, I focused on minimizing the "overestimated" value.   
 
