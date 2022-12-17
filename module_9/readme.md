@@ -73,8 +73,23 @@ Already at this stage, the fact of the absence of computing power had a very str
 
 ### <a name="dlnn"></a> Multi-input NN
 
+Building a multi-input model
 
+The difficulty turned out to be the lack of computing power to train this entire model. 30 hours of Kaggle ended instantly, and Colab did not let the GPU work for two or three days a week. Considering that loading data into the Colab from Kaggle for some reason did not work, I had to load them manually, the file with the model weights also had to be separately loaded, all this took 1 hour before it was possible to continue working when the GPU worked. The training itself for 15-20 epochs took from 2 to 5 hours. Over such a period, failures occurred more than once, which destroyed the results of the work done, and had to re-load the data and weight files.
 
+Thus, it was extremely difficult to start different experiments, for example, on photo augmentation (the only thing I did was discover and correct methods that turned out to work in Kaggle, but did not work in Colaba, and vice versa, although these are the same algorithms). Also, it was not possible to experiment much with the design of the model - at least there was enough strength to spend more epochs training one design. Indeed, to understand whether it was possible to improve the result in any experiment, it is necessary to spend at least 10 hours.
+
+For the same reason, the file contains a code block for fine-tuning the external pre-trained network, but in reality, I sacrificed this experiment. Since in the previous project, using this method, I did not achieve a significant improvement in the result and now I did not want to waste the time of the sites, which turned out to be so valuable.
+
+Blending Simulation Results
+
+After more than a week of work on training the network, we managed to reach the stage of "mixing" the results of the work of ML and DL models. I wanted to try this method initially very much, but there was no hope that it would turn out to be an interesting result, given almost all previous results, except for Catboosting.
+
+However, it was here that I managed to achieve a better MAPE metric than the ML model had.
+
+From the beginning, I used the arithmetic mean to get the result, but later it turned out that the proportion of 70 to 30 gives an even better result.
+
+As a result of the competition, I received the MAPE  11.3647% (55th place in the leaderboard on May 15, 2022).
 
 > * **Used libraries**: pandas, numpy, tqdm
 > * **ML libraries**: sklearn, catboost,
@@ -82,7 +97,13 @@ Already at this stage, the fact of the absence of computing power had a very str
 > * **ML methods**: category_encoders
 > * **DL libraries**: tensorflow, tensorflow.keras, pymorphy2
 > * **DL methods**: layers, Model, Sequential, Tokenizer, ModelCheckpoint, EarlyStopping
+
 ### <a name="estimate"></a> Resume.
+
+Not everything was implemented in the proposed work plan. However, I am glad that I tried to develop the idea of categorical regression by combining it with pre-classification. Given my free time, I plan to develop the topic.
+I also liked working with neural networks already at an advanced level, which I consider the method of feature forwarding and designing a design with multiple inputs. It is a pity that there were not enough resources to conduct more experiments.
+
+Thus, I am satisfied with the work done and, which is no less important, with the results at the competition.
 
 ---
 
