@@ -49,4 +49,9 @@ the metric - the correct information was mostly lost.
 
 First of all, the issue of choosing a metric was seen as very important. While cleaning data and generating features, I looked at a wide set. Given the chosen target, a metric was needed to track that the model was predominantly wrong "down", that is, it predicted a smaller value than the actual asking price. This is necessary to insure against a false conclusion when the model's prediction turns out to be higher than the market price and the object turns out to be a bad investment.   
 I found the Mean Pinball Loss metric - "a metric of average losses in a certain quantile". It is implemented in `sklearn`, but for some reason, it was not imported locally. So I wrote my function with additional result parameters: in addition to MPL, I also counted the proportion of "overestimated" values, as well as the average of "overestimated" and "underestimated" values. By choosing alpha=0.01, I focused on minimizing the "overestimated" value.   
+____
+$$Pinball(y, \\widehat{y}) = \frac{1}{n}\sum_{i=0}^{n-1}\alpha * max(y_{i}-\widehat{y}_{i},0)+(1-\alpha) * max(\widehat{y}_{i}-y_{i},0)$$
+
+[Fomula and description](https://scikit-learn.org/stable/modules/model_evaluation.html#pinball-loss)
+___
 
