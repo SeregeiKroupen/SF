@@ -5,12 +5,14 @@
 
 Project consisted with several steps. 
 
-1. [EDA and FE](#eda) (*car_prices_pasing.ipynb*)
-2. [Neural Network for Structured, Tabular Data](#tdnn) (*car_prices_eda.ipynb*)
-3. [Multyinput NN](#dlmm) (*car_prices_ML2.ipynb*)
+1. [EDA and FE](#eda) (*MultyInput_CarPricesPrediction_EDA.ipynb*)
+2. [Neural Network for Structured, Tabular Data](#tdnn) (*multyinput-carpricesprediction-nn-v0-ipynb.ipynb*)
+3. [Multyinput NN](#dlmm) (*multyinput-carpricesprediction-final-v0-ipynb.ipynb*)
 4. [Resume](#estimate)
-5. [Failures](#failures)
-6. [Achievements](#achievements)
+----
+**additional files from module #9
+5. [Image generator on NN GAN](#gan) (*DL9_IMG_Generate.ipynb*)
+6. [AI for CartPole game](#ai) (*dqn-cartpole.ipynb*)
 
 ### <a name="eda"></a>EDA and FE
 
@@ -33,8 +35,8 @@ Project consisted with several steps.
 ### <a name="estimate"></a> Resume.
 
 
-### <a name="failures"></a> Failures.
+### <a name="gan"></a> Image generator on NN GAN
 
 
-### <a name="achievements"></a>My Achivments
+### <a name="ai"></a>AI for CartPole game
 
